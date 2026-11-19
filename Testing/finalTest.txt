@@ -1,0 +1,124 @@
+(AI Video Assistant) PS A:\CODING\COMPLETE AGI ENGINEERING\Generative AI\AI Video Assistant> python main.py
+Enter YouTube URL or local file path: https://youtu.be/l7nUJGBztfc?si=TrxPrfdFQwQyPrd6
+Language (english/hinglish): english
+starting AI video Asistant
+Detected YouTube URL. Downloading audio...
+Chunking audio...
+Audio ready — 1 chunk(s) created.
+Using Whisper for transcription.
+Transcribing chunk 1/1...
+Loading Whisper model: small ...
+whisper model loaded successfully
+A:\CODING\COMPLETE AGI ENGINEERING\Generative AI\AI Video Assistant\.venv\Lib\site-packages\whisper\transcribe.py:132: UserWarning: FP16 is not supported on CPU; using FP32 instead
+  warnings.warn("FP16 is not supported on CPU; using FP32 instead")
+Transcription complete.
+raw transscription (first 300 characters ) What if a machine could learn just like you do? That's the basic idea behind artificial intelligence, or AI. AI is technology that allows computers to think and act smartly, but it doesn't think exactly like humans do. Instead, it learns by finding patterns in huge amounts of data. This process is c
+Building vector Store
+A:\CODING\COMPLETE AGI ENGINEERING\Generative AI\AI Video Assistant\core\vector_store.py:12: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the `langchain-huggingface package and should be used instead. To use it run `pip install -U `langchain-huggingface` and import as `from `langchain_huggingface import HuggingFaceEmbeddings``.
+  return HuggingFaceEmbeddings(
+Loading weights: 100%|█████████████████████████████| 103/103 [00:00<00:00, 1408.98it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights: 100%|█████████████████████████████| 103/103 [00:00<00:00, 1584.57it/s]
+
+============================================================
+📌 Title: **"AI Learning: Patterns, Neural Networks, and Future Impact"**
+
+📋 Summary:
+**Summary:**
+
+Artificial Intelligence (AI) enables computers to learn and act intelligently by identifying patterns in vast data—through **machine learning** (e.g., recognizing cats in images) or **neural networks** (mimicking brain-like processing for speech, face, and emotion recognition).
+
+AI is already embedded in everyday tech like voice assistants (Siri/Alexa), streaming recommendations, spam filters, and self-driving cars. Currently, **narrow AI** (specialized tasks like translation) dominates, while **general AI** (human-like adaptability) remains theoretical.
+
+Beyond utility, AI is transforming creativity (art, music, writing), sparking debates about job displacement, originality, and human-AI collaboration. Its future hinges on ethical use and human guidance.
+
+✅ Meeting Analysis:
+This text is an **informational overview** of AI and does not contain a **meeting transcript** (e.g., discussion, decisions, or action items). As such, none of the requested sections (ACTION ITEMS, KEY DECISIONS, or OPEN QUESTIONS) can be extracted from this content.
+
+If you'd like, I can instead:
+1. **Summarize key points** about AI (e.g., definitions, types, applications).
+2. **Identify open questions or debates** raised in the text (e.g., ethical concerns, job displacement).
+3. **Provide a structured breakdown** of the content for analysis.
+
+Let me know how you'd like to proceed!
+============================================================
+
+Chat with your meeting (type 'exit' to quit)
+
+You: what say about AI here in this video??
+Question : what say about AI here in this video??
+answer : Here’s what the transcript says about **AI**:
+
+1. **Definition & Functionality**:
+   - AI is technology that lets computers "think and act smartly" by learning patterns from large datasets (e.g., recognizing cats in images).
+   - It doesn’t think like humans but mimics learning through **machine learning** (e.g., analyzing millions of data points).
+
+2. **Applications**:
+   - **Everyday Use**: Voice assistants (Siri/Alexa), streaming recommendations, spam filters.
+   - **Advanced Systems**: Neural networks (inspired by brain neurons) enable tasks like speech/face recognition and emotion detection in text.
+   - **Creative Fields**: AI can generate art, music, and writing, raising debates about creativity, jobs, and originality.
+   - **Automation**: Self-driving cars use AI for road/obstacle detection.
+
+3. **Types of AI**:
+   - **Narrow AI**: Specialized for one task (e.g., translation).
+   - **General AI**: Hypothetical AI that adapts across tasks like humans—still theoretical.
+
+4. **Impact & Debates**:
+   - Fear of job displacement vs. AI as a "powerful tool" to enhance human work.
+   - Ethical questions about originality and creativity in AI-generated content.
+
+5. **Future Focus**:
+   - Emphasizes the importance of understanding AI’s role in shaping the future, not just its technical capabilities.
+
+Assistant: Here’s what the transcript says about **AI**:
+
+1. **Definition & Functionality**:
+   - AI is technology that lets computers "think and act smartly" by learning patterns from large datasets (e.g., recognizing cats in images).
+   - It doesn’t think like humans but mimics learning through **machine learning** (e.g., analyzing millions of data points).
+
+2. **Applications**:
+   - **Everyday Use**: Voice assistants (Siri/Alexa), streaming recommendations, spam filters.
+   - **Advanced Systems**: Neural networks (inspired by brain neurons) enable tasks like speech/face recognition and emotion detection in text.
+   - **Creative Fields**: AI can generate art, music, and writing, raising debates about creativity, jobs, and originality.
+   - **Automation**: Self-driving cars use AI for road/obstacle detection.
+
+3. **Types of AI**:
+   - **Narrow AI**: Specialized for one task (e.g., translation).
+   - **General AI**: Hypothetical AI that adapts across tasks like humans—still theoretical.
+
+4. **Impact & Debates**:
+   - Fear of job displacement vs. AI as a "powerful tool" to enhance human work.
+   - Ethical questions about originality and creativity in AI-generated content.
+
+5. **Future Focus**:
+   - Emphasizes the importance of understanding AI’s role in shaping the future, not just its technical capabilities.
+
+You: Will AI snatch job in future??
+Question : Will AI snatch job in future??
+answer : "Some fear AI could replace certain human jobs entirely," as mentioned in the transcript. However, others believe it will act as a tool to help humans work more efficiently. The future impact depends on how AI is used.
+
+Assistant: "Some fear AI could replace certain human jobs entirely," as mentioned in the transcript. However, others believe it will act as a tool to help humans work more efficiently. The future impact depends on how AI is used.
+
+You: What is the name of the youtube channel??
+Question : What is the name of the youtube channel??
+answer : I could not find this information in the meeting transcript.
+
+Assistant: I could not find this information in the meeting transcript.
+
+You: AI vs Human??
+Question : AI vs Human??
+answer : The transcript discusses the debate around **AI vs. human creativity and roles**:
+
+- **Fear**: Some worry AI could replace human jobs in creative fields like art, music, and writing, raising questions about **originality and employment**.
+- **Optimism**: Others believe AI will act as a **powerful tool** to enhance human work rather than replace it entirely.
+
+*"Some fear AI could replace certain human jobs entirely. Others believe AI will simply become a powerful tool that helps us work smarter."*
+
+Assistant: The transcript discusses the debate around **AI vs. human creativity and roles**:
+
+- **Fear**: Some worry AI could replace human jobs in creative fields like art, music, and writing, raising questions about **originality and employment**.
+- **Optimism**: Others believe AI will act as a **powerful tool** to enhance human work rather than replace it entirely.
+
+*"Some fear AI could replace certain human jobs entirely. Others believe AI will simply become a powerful tool that helps us work smarter."*
+
+You: Thanks budy
