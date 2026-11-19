@@ -27,8 +27,15 @@ def download_youtube_audio(url: str, session_dir: str) -> str:
             }
         ],
         "quiet": True,
+        "no_warnings": False,
         "cookiefile": "cookies.txt",
         "remote_components": ["ejs:github"],
+        "js_runtimes": {
+            "deno": {}
+        },
+        "retries": 5,
+        "fragment_retries": 5,
+        "socket_timeout": 30,
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
