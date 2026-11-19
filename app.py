@@ -5,15 +5,9 @@ from core.transcriber import transcribe_all
 from core.summarizer import summarize, generate_title
 from core.extractor import extract_all
 from core.rag_engine import build_rag_chain, ask_question
-import os
 
 load_dotenv()
 
-# Load Mistral API key from Streamlit Secrets
-try:
-    os.environ["MISTRAL_API_KEY"] = st.secrets["MISTRAL_API_KEY"]
-except (KeyError, FileNotFoundError):
-    pass
 
 # ─── Page Config ────────────────────────────────────────────────────────────────
 st.set_page_config(
